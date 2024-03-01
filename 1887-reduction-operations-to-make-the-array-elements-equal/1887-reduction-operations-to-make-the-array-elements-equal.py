@@ -9,13 +9,13 @@ class Solution:
         
         for ind, i in enumerate(nums):
             if i not in inds:
-                inds[i] = [ind]
+                inds[i] = 1
             else:
-                inds[i].append(ind)
+                inds[i] += 1
             
         s = 0
         for ind, i in enumerate(ns):
-            s += ind*len(inds[i])
+            s += ind*inds[i]
             
         return s
         
