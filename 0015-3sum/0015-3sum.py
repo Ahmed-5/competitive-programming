@@ -11,15 +11,7 @@ class Solution:
             left = i+1
             right = len(nums)-1
             
-            while left<right:
-                if left == i:
-                    left += 1
-                    continue
-                    
-                if right == i:
-                    right -= 1
-                    continue
-                   
+            while left<right:                   
                 s = nums[i] + nums[left] + nums[right]
                 if s == 0:
                     solutions.add((nums[left], nums[i], nums[right]))
