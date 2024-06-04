@@ -15,16 +15,15 @@ class Solution:
                 
                 arr.append(d)
                 if len(arr)>1 and i==len(s):
-                    print("Solved", arr)
                     solved[0] = True
                     return 
+                
                 split(i)
+                
                 if solved[0]:
                     return
                 arr.pop()
                 
         split(0)
-        
-        print(arr)
         
         return solved[0]
