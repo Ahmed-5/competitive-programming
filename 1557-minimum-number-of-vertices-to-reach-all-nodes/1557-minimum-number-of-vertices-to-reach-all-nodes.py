@@ -5,7 +5,7 @@ input = sys.stdin.readline
 
 class Solution:
     def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:
-        parents = defaultdict(int)
+        parents = [0 for i in range(n)]
         
         for i, j in edges:
             parents[j] += 1
