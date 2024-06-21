@@ -11,32 +11,25 @@ class Solution:
             graph[var2][var1] = 1.0/v
             
         def dfs(source, dest):
-            # print("DFS")
-            visited = defaultdict(lambda: False)
             if source not in graph or dest not in graph:
                 return -1.0
             
             if source==dest:
                 return 1.0
             
-            stack = [[source, dest, 1]]
-            while len(stack)>0:
-                s, d, v = stack.pop()
+            visited[source] = True
             
-                visited[s] = True
-                if s==d:
-                    return v
-                
-                for i in graph[s]:
-                    if visited[i]:
-                        continue
-                        
-                    stack.append([i, d, v*graph[s][i]])
+            for new_source in graph[source]:
+                if not visited[new_source]:
+                    ans = dfs(new_source, dest)
+                    if ans != -1:
+                        return graph[source][new_source] * ans
             
             return -1
             
         answers = []
         for s, d in queries:
+            visited = defaultdict(lambda: False)
             ans = dfs(s,d)
             answers.append(ans)
             
