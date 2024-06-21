@@ -23,21 +23,18 @@ class Solution:
                     
         for i in range(n):
             for j in range(n):
-                if j==i or graph[i][j]==0:
+                if j==i or (graph[i][j]==0 and graph[j][i]==0):
                     continue
-
-                for k in range(n):
-                    if graph[j][k]==1:
-                        graph[i][k]=1
                     
-        for i in range(n):
-            for j in range(n):
-                if j==i or graph[i][j]==0:
-                    continue
-
-                for k in range(n):
-                    if graph[j][k]==1:
-                        graph[i][k]=1
+                if graph[j][i]==1:
+                    for k in range(n):
+                        if graph[i][k]==1:
+                            graph[j][k]=1
+                    
+                if graph[i][j]==1:
+                    for k in range(n):
+                        if graph[j][k]==1:
+                            graph[i][k]=1
                             
         intersections = [sum(i) for i in graph]
             
