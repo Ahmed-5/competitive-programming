@@ -1,5 +1,3 @@
-from collections import deque
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -8,20 +6,20 @@ from collections import deque
 #         self.right = right
 class Solution:
     def isUnivalTree(self, root: Optional[TreeNode]) -> bool:
-        q = deque([])
+        q = []
         val = root.val
         
-        q.appendleft(root)
+        q.append(root)
         while len(q)>0:
             node = q.pop()
             if node.val != val:
                 return False
             
             if node.left:
-                q.appendleft(node.left)
+                q.append(node.left)
                 
             if node.right:
-                q.appendleft(node.right)
+                q.append(node.right)
                 
         return True
         
