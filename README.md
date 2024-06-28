@@ -4,13 +4,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1117-as-far-from-land-as-possible](https://github.com/Ahmed-5/competitive-programming/tree/master/1117-as-far-from-land-as-possible) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Ahmed-5/competitive-programming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [1117-as-far-from-land-as-possible](https://github.com/Ahmed-5/competitive-programming/tree/master/1117-as-far-from-land-as-possible) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Ahmed-5/competitive-programming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Matrix
 |  |
 | ------- |
+| [1117-as-far-from-land-as-possible](https://github.com/Ahmed-5/competitive-programming/tree/master/1117-as-far-from-land-as-possible) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Ahmed-5/competitive-programming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1117-as-far-from-land-as-possible](https://github.com/Ahmed-5/competitive-programming/tree/master/1117-as-far-from-land-as-possible) |
 <!---LeetCode Topics End-->
