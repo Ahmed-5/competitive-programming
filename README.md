@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0529-minesweeper](https://github.com/Ahmed-5/competitive-programming/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/Ahmed-5/competitive-programming/tree/master/0542-01-matrix) |
+| [0753-open-the-lock](https://github.com/Ahmed-5/competitive-programming/tree/master/0753-open-the-lock) |
 | [1117-as-far-from-land-as-possible](https://github.com/Ahmed-5/competitive-programming/tree/master/1117-as-far-from-land-as-possible) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Ahmed-5/competitive-programming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Breadth-First Search
@@ -13,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0529-minesweeper](https://github.com/Ahmed-5/competitive-programming/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/Ahmed-5/competitive-programming/tree/master/0542-01-matrix) |
+| [0753-open-the-lock](https://github.com/Ahmed-5/competitive-programming/tree/master/0753-open-the-lock) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Ahmed-5/competitive-programming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1117-as-far-from-land-as-possible](https://github.com/Ahmed-5/competitive-programming/tree/master/1117-as-far-from-land-as-possible) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Ahmed-5/competitive-programming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -31,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0753-open-the-lock](https://github.com/Ahmed-5/competitive-programming/tree/master/0753-open-the-lock) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Ahmed-5/competitive-programming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 ## Tree
 |  |
@@ -45,4 +48,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Ahmed-5/competitive-programming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+## String
+|  |
+| ------- |
+| [0753-open-the-lock](https://github.com/Ahmed-5/competitive-programming/tree/master/0753-open-the-lock) |
 <!---LeetCode Topics End-->
